@@ -1,13 +1,4 @@
-/* Modern Dark Theme CSS */
-:root {
-  --bg-primary: #121212;
-  --bg-secondary: #1e1e1e;
-  --text-primary: #e0e0e0;
-  --text-secondary: #a0a0a0;
-  --accent: #bb86fc;
-  --accent-hover: #9969da;
-}
-
+/* Modern Dark Theme CSS - Simplified Version */
 * {
   margin: 0;
   padding: 0;
@@ -18,15 +9,15 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-  background-color: var(--bg-primary);
-  color: var(--text-primary);
+  background-color: #121212;
+  color: #e0e0e0;
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
 }
 
 header {
-  background-color: var(--bg-secondary);
+  background-color: #1e1e1e;
   padding: 25px;
   margin-bottom: 30px;
   border-radius: 8px;
@@ -35,7 +26,7 @@ header {
 
 header h1 {
   margin-bottom: 15px;
-  color: var(--accent);
+  color: #bb86fc;
 }
 
 nav ul {
@@ -51,15 +42,15 @@ nav ul li {
 
 nav a {
   text-decoration: none;
-  color: var(--text-primary);
+  color: #e0e0e0;
   font-weight: 500;
   padding: 5px 10px;
   border-radius: 4px;
 }
 
 nav a:hover {
-  background-color: var(--accent);
-  color: var(--bg-primary);
+  background-color: #bb86fc;
+  color: #121212;
 }
 
 main {
@@ -67,7 +58,7 @@ main {
 }
 
 section {
-  background-color: var(--bg-secondary);
+  background-color: #1e1e1e;
   margin-bottom: 30px;
   padding: 25px;
   border-radius: 8px;
@@ -79,8 +70,8 @@ h1, h2, h3 {
 }
 
 h2 {
-  color: var(--accent);
-  border-bottom: 2px solid var(--accent);
+  color: #bb86fc;
+  border-bottom: 2px solid #bb86fc;
   padding-bottom: 5px;
   display: inline-block;
 }
@@ -90,12 +81,12 @@ p {
 }
 
 a {
-  color: var(--accent);
+  color: #bb86fc;
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--accent-hover);
+  color: #9969da;
   text-decoration: underline;
 }
 
@@ -103,8 +94,8 @@ footer {
   text-align: center;
   padding: 20px;
   margin-top: 40px;
-  background-color: var(--bg-secondary);
-  color: var(--text-secondary);
+  background-color: #1e1e1e;
+  color: #a0a0a0;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
